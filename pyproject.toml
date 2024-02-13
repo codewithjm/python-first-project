@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "firstpydjangoproject"
+version = "0.1.0"
+description = ""
+authors = ["jollymar obias <jollymarobias25@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.0.2"
+djangorestframework = "^3.14.0"
+psycopg2 = "^2.9.9"
+django-filter = "^23.5"
+django-split-settings = "^1.2.0"
+pyyaml = "^6.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
